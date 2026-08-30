@@ -1,0 +1,36 @@
+# ⚡ Calculadora de Consumo Elétrico Inteligente 🔌
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+Projeto desenvolvido para o programa de iniciação em tecnologia. O objetivo principal é ajudar usuários a estimarem o consumo de energia elétrica mensal (em kWh) e o custo financeiro aproximado de um eletrodoméstico com base na rotina de uso.
+
+---
+
+## 🎯 Objetivo do Sistema
+
+* Praticar a lógica de programação utilizando o ciclo **Entrada → Processamento → Saída**.
+* Aplicar estruturas de decisão (`if/elif/else`) para validação de dados.
+* Publicar e organizar o código-fonte através do versionamento com Git e GitHub.
+
+---
+
+## 🧮 Fórmula Utilizada
+
+O cálculo do consumo elétrico mensal é realizado através da seguinte fórmula:
+
+$$\text{Consumo Mensal (kWh)} = \frac{\text{Potência (W)} \times \text{Horas/Dia} \times 30}{1000}$$
+
+> **Nota de Custo:** O custo estimado considera um valor fixo de **R$ 0,75 por kWh**.
+
+## 🚀 Como Executar o Programa
+
+### Pré-requisitos
+* **Python 3.x** instalado.
+
+### Passo a Passo
+
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/CarolF15/consumo-energia.git](https://github.com/CarolF15/consumo-energia.git)
